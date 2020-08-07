@@ -13,6 +13,8 @@ Let’s now move our attention to admin route. We don’t want use to see Admin 
                 this.loggedIn = false;
             }
         };
+        
+        // when val is true or false
         const Admin = () => AppState.loggedIn ? 
                             <h1>Admin Component</h1> : 
                             <Redirect to="/login" />;
